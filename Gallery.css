@@ -1,0 +1,487 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    font-family: "libre Baskerville", serif;
+}
+.section1{
+    background-image: url('Gallery_page_images/pic25-free-img.jpg');
+    background-color: #65666f;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.tab1{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+.l1{
+    width: 50%;
+    
+}
+.l1 img{
+    transform: scale(0.5);
+}
+.l2{
+    margin-top: 30px;
+   margin-left: 150px;
+}
+.l2 a{
+    
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+.hamburger-icon {
+    background-color: transparent;
+    border-style: none;
+}
+.header{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 150px;
+}
+.hd2{
+    padding-top: 30px;
+    font-size: 23px;
+}
+.hd3{
+    font-size: 100px;
+}
+.section2{
+    margin-top: 20px;
+    background-color: #f6f6f6;
+}
+.sect2{
+    padding: 100px 48px 100px 40px;
+}
+.imgset{
+    display: flex;
+}
+.p1{
+    transform: scale(0.9);
+}
+.p2{
+    transform: scale(0.9);
+}
+.p3{
+    transform: scale(0.9);
+}
+.p4{
+    transform: scale(0.95);
+}
+.p5{
+    transform: scale(0.94);
+}
+.p6{
+    transform: scale(0.94);
+}
+.section3{
+    margin-top: 40px;
+    
+}
+.video{
+    display: flex;
+    margin-bottom: 30px;
+    margin-right: 0px;
+}
+.ytube{
+    width: 50%;
+    margin-right: 30px;
+}
+.ytubee{
+    margin-left: 30px;
+    width: 50%;
+}
+.text{
+    background-color: #f6f6f6;
+    /* padding-top: 150px; */
+    padding-left: 100px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    width: 50%;
+    align-self: center;
+}
+.p01{
+    font-size: 20px;
+    color: #384667;
+    padding-bottom: 20px;
+}
+.p02{
+    font-size: 50px;
+    font-weight: bold;
+    color: #384667;
+}
+
+
+
+
+
+.section8{
+    margin-top: 30px;
+}
+.sect8{
+    display: flex;
+}
+.Grandd{
+    width: 50%;
+    color: white;
+    background-color: #FF4362;
+}
+.conbg{
+    padding-top: 200px;
+    padding-bottom: 250px;
+    text-align: center;
+}
+.pss1{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.pss2{
+    padding-top: 20px;
+    font-size: 60px;
+}
+.pss3{
+    padding-top: 25px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+}
+.notl{
+    padding-top: 100px;
+    padding-left: 70px;
+    /* width: 80%;
+    margin: 0 auto; */
+    text-align: center;
+}
+.ps1{
+    font-size: 60px;
+    color: #384667;
+}
+.ps2{
+    padding-top: 20px;
+    line-height: 25px;
+    font-size: 19px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    color: #384667;
+}
+.logoset{
+    padding-top: 40px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.logoset i{
+    padding-left: 30px;
+}
+.book{
+    padding-top: 50px;
+}
+input{
+    margin-top: 15px;
+    font-size: large;
+    width: 80%;
+    padding: 15px 15px 15px 15px;
+    background-color: #EEEEEE;
+    border: 2px solid  #EEEEEE;
+}
+textarea{
+    margin-top: 15px;
+    font-size: large;
+    width: 80%;
+    padding: 15px 15px 15px 15px;
+    background-color: #EEEEEE;
+    border: 2px solid #EEEEEE;
+}
+.bk{
+    text-decoration: none;
+    color: #3A4F6E;
+    border: 2px solid #FF4362;
+    padding: 15px 50px 15px 50px;
+}
+.bk:hover{
+    font-family: Montserrat, sans-serif;
+    color: white;
+    background-color: #FF4362;
+}
+.section9{
+    background-color: #252D41;
+}
+.cont9{
+    display: flex;
+    padding: 20px;
+    padding-bottom: 15px;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 400;
+    font-display: swap;
+    width: 100%;
+}
+.f9{
+    width: 50%;
+    color: white;
+    padding: 45px 20px 45px 20px;
+}
+.la9{
+    text-align: right;
+    padding-right: 40px;
+}
+
+
+/* Extra Small (XS) */
+/* Styles for mobile phones */
+@media (max-width: 575px) {
+    .section1{
+        width: 100%;
+    }
+    .l1 img{
+        margin-left: -70px;
+    }
+    .header{
+        padding-bottom: 100px;
+    }
+    .hd3{
+        font-size: 70px;
+    }
+    .hamburger-icon {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 25px;
+        height: 20px;
+        cursor: pointer;
+        text-align: right;
+        position: absolute;
+        top: 20px; 
+        right: 20px; 
+        z-index: 999;
+        border-style: none;
+        background-color: transparent;
+    }
+    
+    .hamburger-icon span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #333;
+    }
+    
+    .menu {
+        display: none;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* background-color: rgba(0, 0, 0, 0.8); */
+        z-index: 999;
+    }
+    .menu.active {
+        display: block;
+    }
+    .imgset{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .video{
+        display: block;
+        width: 100%;
+        margin-left: 1px;
+    }
+    .text{
+        width: 100%;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .ytube{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .ytubee{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .sect8{
+        display: block;
+    }
+    .Grandd{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .conbg{
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .notl{
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+    .ps2{
+        width: 100%;
+    }
+    .seck{
+        margin-bottom: 100px;
+    }
+    .cont9{
+        width: 100%;
+    }
+    .f9{
+        font-size: 13px;
+    }
+}
+
+/* Small (S) */
+/* Styles for small tablets */
+@media (min-width: 576px) and (max-width: 767px) {
+    .section1{
+        width: 100%;
+        background-position: left center;
+    }
+    .l1 img{
+        margin-left: -70px;
+    }
+    .header{
+        padding-bottom: 100px;
+    }
+    .hd3{
+        font-size: 70px;
+    }
+    .hamburger-icon {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 25px;
+        height: 20px;
+        cursor: pointer;
+        text-align: right;
+        position: absolute;
+        top: 20px; 
+        right: 20px; 
+        z-index: 999;
+        border-style: none;
+        background-color: transparent;
+    }
+    
+    .hamburger-icon span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #333;
+    }
+    
+    .menu {
+        display: none;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* background-color: rgba(0, 0, 0, 0.8); */
+        z-index: 999;
+    }
+    .menu.active {
+        display: block;
+    }
+    .imgset{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .text{
+        width: 100%;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .video{
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .ytube{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .ytubee{
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .sect8{
+        display: block;
+    }
+    .Grandd{
+        width: 100%;
+    }
+    .conbg{
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .notl{
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+    .ps2{
+        width: 100%;
+    }
+    .seck{
+        margin-bottom: 100px;
+    }
+    .cont9{
+        width: 100%;
+    }
+    .f9{
+        font-size: 13px;
+    }
+
+
+}
+
+/* Medium (M) */
+/* Styles for larger tablets and smaller laptops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .l2{
+        width: 70%;
+        margin-left: 100px;
+    } 
+    .section2{
+        width: 100%;
+    }
+    .sect2{
+        padding: 100px 0px 100px 0px;
+    }
+    .imgset img{
+        width: 80%;
+        padding-left: 20px;
+    }
+
+}
+
+/* Large (L) */
+/* Styles for laptops and desktops */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .l2{
+        width: 50%;
+        margin-left: 150px;
+    }
+    .section2{
+        width: 100%;
+    }
+    .sect2{
+        padding: 100px 0px 100px 0px;
+    }
+    .imgset img{
+        width: 80%;
+        padding-left: 20px;
+    }
+}

@@ -1,0 +1,464 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    font-family: "libre Baskerville", serif;
+}
+.section1{
+    background-image: url('Venues_images/wedding-venue-img.jpg');
+    background-color: #65666f;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.tab1{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+.l1{
+    width: 50%;
+    
+}
+.l1 img{
+    transform: scale(0.5);
+}
+.hamburger-icon {
+    background-color: transparent;
+    border-style: none;
+}
+.l2{
+    margin-top: 30px;
+   margin-left: 150px;
+}
+.l2 a{
+    
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+.header{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 180px;
+}
+.hd2{
+    padding-top: 30px;
+    font-size: 23px;
+}
+.hd3{
+    padding-top: 20px;
+    font-size: 100px;
+    font-weight: bold;
+}
+.section2{
+    background-color: #f6f6f6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 120px;
+    padding-left: 90px;
+}
+.cont1{
+    display: flex;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+.cont1 img{
+    width: 80%;
+}
+.part1{
+    width: 50%;
+    margin-right: 50px;
+
+}
+.part2{
+    width: 50%;
+}
+.part1 p{
+    text-align: center;
+    color: #384667;
+    width: 80%;
+
+}
+.part2 p{
+    text-align: center;
+    color: #384667;
+    width: 80%;
+}
+.t1{
+    padding-top: 20px;
+    font-size: 20px;
+    color: #252d41;
+    font-weight: bold;
+}
+.t2{
+    padding-top: 20px;
+    font-size: 30px;
+
+}
+.t3{
+    padding-top: 20px;
+    font-weight: lighter;
+}
+.red-line{
+    width: 20%;
+    height: 2px;
+    background-color: #ff6780;
+    margin:40px 20px 20px 165px;
+}
+.t4{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.mm{
+    font-weight: bold;
+    line-height: 30px;
+}
+.boo{
+    width: 90%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+.bk{
+    font-weight: bold;
+    text-decoration: none;
+    color: #3A4F6E;
+    border: 2px solid #FF4362;
+    padding: 15px 50px 15px 50px;
+}
+.bk:hover{
+    font-family: Montserrat, sans-serif;
+    color: white;
+    background-color: #FF4362;
+}
+
+
+
+
+
+.section8{
+    margin-top: 30px;
+}
+.sect8{
+    display: flex;
+}
+.Grandd{
+    width: 50%;
+    color: white;
+    background-color: #FF4362;
+}
+.conbg{
+    padding-top: 200px;
+    padding-bottom: 250px;
+    text-align: center;
+}
+.pss1{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.pss2{
+    padding-top: 20px;
+    font-size: 60px;
+}
+.pss3{
+    padding-top: 25px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+}
+.notl{
+    padding-top: 100px;
+    padding-left: 70px;
+    /* width: 80%;
+    margin: 0 auto; */
+    text-align: center;
+}
+.ps1{
+    font-size: 60px;
+    color: #384667;
+}
+.ps2{
+    padding-top: 20px;
+    line-height: 25px;
+    font-size: 19px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    color: #384667;
+}
+.logoset{
+    padding-top: 40px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.logoset i{
+    padding-left: 30px;
+}
+.book{
+    padding-top: 50px;
+}
+input{
+    margin-top: 15px;
+    font-size: large;
+    width: 80%;
+    padding: 15px 15px 15px 15px;
+    background-color: #EEEEEE;
+    border: 2px solid  #EEEEEE;
+}
+textarea{
+    margin-top: 15px;
+    font-size: large;
+    width: 80%;
+    padding: 15px 15px 15px 15px;
+    background-color: #EEEEEE;
+    border: 2px solid #EEEEEE;
+}
+.bk{
+    text-decoration: none;
+    color: #3A4F6E;
+    border: 2px solid #FF4362;
+    padding: 15px 50px 15px 50px;
+}
+.bk:hover{
+    font-family: Montserrat, sans-serif;
+    color: white;
+    background-color: #FF4362;
+}
+.section9{
+    background-color: #252D41;
+}
+.cont9{
+    display: flex;
+    padding: 20px;
+    padding-bottom: 15px;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 400;
+    font-display: swap;
+    width: 100%;
+}
+.f9{
+    width: 50%;
+    color: white;
+    padding: 45px 20px 45px 20px;
+}
+.la9{
+    text-align: right;
+    padding-right: 40px;
+}
+
+
+
+
+
+
+
+/* Extra Small (XS) */
+/* Styles for mobile phones */
+@media (max-width: 575px) {
+    .section1{
+        width: 100%;
+        background-position: left center;
+    }
+    .l1 img{
+        margin-left: -70px;
+    }
+    .header{
+        padding-bottom: 100px;
+    }
+    .hd3{
+        font-size: 70px;
+    }
+    .hamburger-icon {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 25px;
+        height: 20px;
+        cursor: pointer;
+        text-align: right;
+        position: absolute;
+        top: 20px; 
+        right: 20px; 
+        z-index: 999;
+        border-style: none;
+        background-color: transparent;
+    }
+    
+    .hamburger-icon span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #333;
+    }
+    
+    .menu {
+        display: none;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* background-color: rgba(0, 0, 0, 0.8); */
+        z-index: 999;
+    }
+    .menu.active {
+        display: block;
+    }
+    .cont1{
+        display: block;
+        margin-bottom: 40px;
+    }
+    .part1, .part2{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .part1 p ,.part2 p {
+        padding-left: 50px;
+    }
+    .red-line{
+        margin:40px 20px 20px 145px;
+    }
+
+
+
+    .sect8{
+        display: block;
+    }
+    .Grandd{
+        width: 100%;
+    }
+    .conbg{
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .notl{
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+    .ps2{
+        width: 100%;
+    }
+    .seck{
+        margin-bottom: 100px;
+    }
+    .cont9{
+        width: 100%;
+    }
+    .f9{
+        font-size: 13px;
+    }
+  }
+  
+  /* Small (S) */
+   /* Styles for small tablets */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .section1{
+        width: 100%;
+        background-position: left center;
+    }
+    .l1 img{
+        margin-left: -70px;
+    }
+    .header{
+        padding-bottom: 100px;
+    }
+    .hd3{
+        font-size: 70px;
+    }
+    .hamburger-icon {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 25px;
+        height: 20px;
+        cursor: pointer;
+        text-align: right;
+        position: absolute;
+        top: 20px; 
+        right: 20px; 
+        z-index: 999;
+        border-style: none;
+        background-color: transparent;
+    }
+    
+    .hamburger-icon span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #333;
+    }
+    
+    .menu {
+        display: none;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* background-color: rgba(0, 0, 0, 0.8); */
+        z-index: 999;
+    }
+    .menu.active {
+        display: block;
+    }
+    .sect8{
+        display: block;
+    }
+    .Grandd{
+        width: 100%;
+    }
+    .conbg{
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .notl{
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+    .ps2{
+        width: 100%;
+    }
+    .seck{
+        margin-bottom: 100px;
+    }
+    .cont9{
+        width: 100%;
+    }
+    .f9{
+        font-size: 13px;
+    }
+   
+  }
+  
+  /* Medium (M) */
+   /* Styles for larger tablets and smaller laptops */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .l2{
+        width: 70%;
+        margin-left: 100px;
+    } 
+   
+  }
+  
+  /* Large (L) */
+  /* Styles for laptops and desktops */
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .l2{
+        width: 50%;
+        margin-left: 150px;
+    }
+  }
+  
